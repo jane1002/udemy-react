@@ -9,7 +9,9 @@ class App extends Component{
           <header className="App-header">
             <h1> Hi, I am a react app.</h1>
             <p>hello</p>
-            <Person/>
+            <Person name="Max" age="28"/>
+            <Person name="Manu" age="29"> My hobbies: racing </Person>
+            <Person name="Jane" age="30"/>
           </header>
         </div>
     );
